@@ -113,7 +113,7 @@ h2{font-family:"Nanum Gothic",sans-serif;font-size:34px;margin:0}
 /* Members */
 .member-group{margin-bottom:48px}
 .member-group:last-child{margin-bottom:0}
-.member-group-title{display:inline-block;font-size:33px;color:#fff;font-weight:800;margin:0 0 24px;padding:8px 22px;border-radius:8px;background:linear-gradient(90deg,var(--accent) 0%,#24415f 60%,var(--secondary) 100%)}
+.member-group-title{display:inline-block;font-size:33px;color:var(--accent);font-weight:800;margin:0 0 24px;padding:8px 22px;border-radius:8px;background:linear-gradient(90deg,var(--accent-soft) 0%,#ffffff 100%)}
 .members{display:grid;grid-template-columns:1fr;gap:28px}
 .members.same-row{grid-template-columns:repeat(2,1fr)}
 .member{display:flex;align-items:flex-start;gap:28px}
