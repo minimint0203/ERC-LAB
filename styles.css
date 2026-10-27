@@ -125,6 +125,10 @@ h2{font-family:"Nanum Gothic",sans-serif;font-size:34px;margin:0}
 .member-affil{margin:0;font-size:13px;line-height:1.15;color:var(--muted)}
 .member-affil-en{margin:0 0 10px;font-size:12px;line-height:1.15;color:var(--muted);white-space:nowrap}
 .member p{margin:0 0 10px;font-size:16px;color:var(--muted)}
+.member-extra{display:flex;gap:18px;margin-top:4px}
+.member-intro{flex:1;font-size:14.5px;color:var(--ink)}
+.member-divider{flex:0 0 1px;width:1px;background:var(--line);align-self:stretch}
+.member-achieve{flex:1;font-size:13.5px;color:var(--muted)}
 
 /* Contact */
 .contact{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
