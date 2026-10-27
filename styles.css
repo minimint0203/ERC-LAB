@@ -113,6 +113,7 @@ h2{font-family:"Nanum Gothic",sans-serif;font-size:34px;margin:0}
 /* Members */
 .member-group{margin-bottom:48px}
 .member-group:last-child{margin-bottom:0}
+.member-group+.member-group{border-top:1px solid var(--line);padding-top:48px}
 .member-group-title{font-size:33px;color:var(--accent);font-weight:800;margin:0 0 24px}
 .members{display:grid;grid-template-columns:1fr;gap:28px}
 .members.same-row{grid-template-columns:repeat(2,1fr)}
