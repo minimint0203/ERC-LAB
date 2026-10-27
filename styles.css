@@ -114,9 +114,10 @@ h2{font-family:"Nanum Gothic",sans-serif;font-size:34px;margin:0}
 .member-group{margin-bottom:48px}
 .member-group:last-child{margin-bottom:0}
 .member-group-title{font-size:18px;color:var(--accent);font-weight:700;margin:0 0 20px}
-.members{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.member{display:flex;align-items:center;gap:18px}
-.member-photo{flex:0 0 96px;width:96px;height:124px;object-fit:cover;border-radius:10px}
+.members{display:grid;grid-template-columns:1fr;gap:28px}
+.members.same-row{grid-template-columns:repeat(2,1fr)}
+.member{display:flex;align-items:center;gap:22px}
+.member-photo{flex:0 0 144px;width:144px;height:186px;object-fit:cover;border-radius:12px}
 .member h3{margin:0 0 6px;font-size:17px}
 .member p{margin:0 0 8px;font-size:13.5px;color:var(--muted)}
 
