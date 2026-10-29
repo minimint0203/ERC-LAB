@@ -1,0 +1,37 @@
+[
+  {
+    "start": "2026.04",
+    "end": "2030.12",
+    "title": "유박비료 수준 퇴비 성능 제고, 악취 저감 등 고품질화 및 상용화",
+    "agency": "농림식품기술기획평가원",
+    "lead": false
+  },
+  {
+    "start": "2026.04",
+    "end": "2026.11",
+    "title": "바이오차 혼합깔짚의 실증 시험포 운영 및 모니터링",
+    "agency": "한국농업기술진흥원",
+    "lead": false
+  },
+  {
+    "start": "2025.09",
+    "end": "2028.08",
+    "title": "고농도 Fe 함유 하수슬러지 biochar의 농업환경적 활용기술 개발",
+    "agency": "",
+    "lead": false
+  },
+  {
+    "start": "2022.03",
+    "end": "2025.02",
+    "title": "탄소-네가티브형 biochar 제조 및 활용기술 개발",
+    "agency": "",
+    "lead": false
+  },
+  {
+    "start": "2019.03",
+    "end": "2022.02",
+    "title": "Biochar 기반 heterogeneous Fenton 산화 촉매제 개발 및 난분해성 유기오염물질 제거 효율성 평가",
+    "agency": "",
+    "lead": true
+  }
+]

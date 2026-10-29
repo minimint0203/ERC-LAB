@@ -1,0 +1,52 @@
+[
+  {
+    "group": "박사과정",
+    "name": "이정민",
+    "name_en": "Jeong-Min Lee",
+    "photo": "images/LJM.jpg",
+    "dept": "동아대학교 응용생명과학과",
+    "dept_en": "Dept. of Applied Bioscience, Dong-A University",
+    "research": "바이오차 적용 농경지의 탄소 추적·예측 연구",
+    "achievements": ["2024·2025 이공계 박사과정생 국가연구장려금 선정"]
+  },
+  {
+    "group": "박사과정",
+    "name": "이예지",
+    "name_en": "Ye-Ji Lee",
+    "photo": "images/LYJ.jpg",
+    "dept": "동아대학교 응용생명과학과",
+    "dept_en": "Dept. of Applied Bioscience, Dong-A University",
+    "research": "",
+    "achievements": []
+  },
+  {
+    "group": "석사과정",
+    "name": "박정원",
+    "name_en": "Jung-Won Park",
+    "photo": "images/PJW.jpg",
+    "dept": "동아대학교 응용생명과학과",
+    "dept_en": "Dept. of Applied Bioscience, Dong-A University",
+    "research": "",
+    "achievements": []
+  },
+  {
+    "group": "학부연구생",
+    "name": "문성빈",
+    "name_en": "Seong-Bhin Moon",
+    "photo": "images/MSB.jpg",
+    "dept": "동아대학교 생명자원산업학과",
+    "dept_en": "Dept. of Life Resources Industry, Dong-A University",
+    "research": "",
+    "achievements": []
+  },
+  {
+    "group": "학부연구생",
+    "name": "최현정",
+    "name_en": "Hyun-Jung Choi",
+    "photo": "images/CHJ.jpg",
+    "dept": "동아대학교 스마트그린자원학과",
+    "dept_en": "Dept. of Smart Green Resources, Dong-A University",
+    "research": "",
+    "achievements": []
+  }
+]

@@ -57,6 +57,34 @@ nav a.active{color:var(--accent);border-bottom-color:var(--accent);font-weight:7
 .ovcard p{margin:0;font-size:14.5px;color:var(--muted)}
 .ovcard .more{display:inline-block;margin-top:14px;font-size:13.5px;color:var(--accent);font-weight:500}
 
+/* Home: news + recruit */
+.sec-head .sec-more{margin-left:auto;font-size:14px;text-decoration:none}
+.hn-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.hn-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;text-decoration:none;color:var(--ink);transition:box-shadow .2s,transform .2s}
+.hn-card:hover{box-shadow:0 14px 34px rgba(0,0,0,.08);transform:translateY(-2px)}
+.hn-img{display:block;aspect-ratio:1/1;overflow:hidden;background:var(--accent-soft)}
+.hn-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.hn-card:hover .hn-img img{transform:scale(1.04)}
+.hn-body{display:flex;flex-direction:column;gap:4px;padding:18px 20px 22px}
+.hn-date{font-size:13px;color:var(--accent);font-weight:700}
+.hn-body b{font-size:16.5px;line-height:1.45}
+.hn-cap{font-size:14px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.hn-empty{grid-column:1/-1;margin:0;padding:48px 0;text-align:center;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:16px}
+.recruit-lead{margin:-24px 0 32px;color:var(--muted);font-size:16.5px}
+.recruit-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px}
+.recruit-card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:28px 30px}
+.recruit-card .en{color:var(--accent);font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+.recruit-card h3{margin:8px 0 14px;font-size:20px}
+.recruit-card ul{margin:0;padding-left:18px;font-size:15px;color:var(--muted)}
+.recruit-card li{margin-bottom:6px}
+.recruit-card.contact{background:var(--accent);border-color:var(--accent);color:#fff}
+.recruit-card.contact .en{color:#a9b8cf}
+.recruit-card.contact p{margin:0 0 10px;font-size:15px;color:#dfe5ee}
+.recruit-card .rc-line{display:flex;gap:12px}
+.recruit-card .rc-line span{flex:0 0 72px;color:#a9b8cf;font-size:13.5px}
+.recruit-card.contact a:not(.btn){color:#fff;text-decoration:none}
+.recruit-card.contact .btn{margin-top:10px;background:#fff;color:var(--accent);border:0}
+
 /* Sections */
 section{padding:96px 0}
 section.alt{background:var(--bg-alt)}
@@ -221,15 +249,12 @@ section.news-gallery{padding:40px 0 96px}
 .lb-nav{font-size:56px;padding:0 12px;opacity:.75}
 .lb-nav:hover,.lb-close:hover{opacity:1}
 
-/* Find us (shown at the bottom of every page) */
-section.findus{background:var(--bg-alt);border-top:1px solid var(--line);padding:72px 0}
-.findus-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.findus-grid .item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 28px}
-.findus-grid .item.wide{grid-column:1/-1}
-.findus-grid .label{font-size:13px;color:var(--accent);font-weight:700;letter-spacing:.06em;margin-bottom:6px}
-.findus-grid .val{font-size:17px;font-weight:500}
-.findus-grid .val a{text-decoration:none}
-.findus-grid .maplink{margin-left:12px;font-size:14px}
-
-footer{background:#f2f3f4;border-top:1px solid var(--line);padding:36px 0;color:var(--muted);font-size:14px}
-footer .wrap{display:flex;justify-content:space-between}
+footer{background:#f2f3f4;border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:13px;line-height:1.7}
+footer .wrap{display:flex;justify-content:space-between;align-items:flex-end;gap:24px}
+.foot-info b{display:block;color:var(--ink);font-size:14px;margin-bottom:4px}
+.foot-info p{margin:0}
+.foot-info p>span+span::before{content:"|";margin:0 10px;color:var(--line)}
+.foot-info a{color:var(--muted)}
+.foot-info a:hover{color:var(--accent)}
+.foot-info .todo{font-size:11.5px}
+.foot-copy{white-space:nowrap;font-size:12.5px}
